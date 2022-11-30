@@ -176,17 +176,21 @@ nav.sticky div a {
 }
 
 /* ====================================Snap-Scrolling=========================== */
-/* .scroll-animation {
-     height: 100vh;
-width: 100vw; 
-scroll-snap-type: y mandatory;
-overflow-y: scroll; 
-} */
+
+
+
+.scroll-animation {
+    height: 100vh;
+    /* width: 100vw; */
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+
+}
 
 .scroll-section {
     height: 100vh;
     width: 100vw;
-    /* scroll-snap-align: start; */
+    scroll-snap-align: start;
 }
 
 /* ====================================Media-Queries================================ */
